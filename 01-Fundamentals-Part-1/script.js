@@ -1,4 +1,4 @@
-let js = 'amazing';
+/*let js = 'amazing';
 console.log(40 + 8 + 23 - 10);
 
 console.log('Jonas');
@@ -82,3 +82,56 @@ console.log(x, y);
 // Use parentheses () to make sure the operation is executed first 
 const averageAge = (ageJonas + ageSarah) / 2
 console.log(ageJonas, ageSarah, averageAge);
+
+
+// Strings and template literals 
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(jonas);
+
+// This is an example with backticks, a much easier way to write strings
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jonasNew);
+
+// Multi line string example 
+console.log(`String
+multiple
+lines`);
+*/
+
+// Taking decisions: if / else statements
+// Start with boolean variables
+const age = 15;
+
+// Put the if condition inside (), if true, the code inside {} will be excecuted
+// If the condition is false, code will execute else statement
+if (age >= 18) {
+    console.log('Sarah can start driving license');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+}
+
+// This structure is called a "if/else control structure"
+/*if () {
+
+} else {
+
+}
+*/
+
+const birthYear = 2012;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century);
